@@ -4,11 +4,13 @@ import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
-        meuFilme.setNome("O poderoso chefão");
-        meuFilme.setAnoDeLancamento(1970);
+        meuFilme.setNome("Blader Runner ");
+        meuFilme.setAnoDeLancamento(2049);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
@@ -50,5 +52,22 @@ public class Principal {
         episodio.setSerie(TheLastOfUs);
         episodio.setTotalVisualizacao(500);
         filtro.filtra(episodio);
+
+        var terceiroFilme = new Filme(); //A variavel var realiza uma inferencia do tipo de declaracao
+        terceiroFilme.setNome("Homem-Aranha Um novo dia");
+        terceiroFilme.setDuracaoEmMinutos(180);
+        terceiroFilme.setAnoDeLancamento(2026);
+        terceiroFilme.avalia(10);
+
+        //Arraylist
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(terceiroFilme);
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(outroFilme);
+        System.out.println("Tamanho da lista" + listaDeFilmes.size());
+        System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
+        System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
+
     }
 }
