@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.principal;
+
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -8,9 +10,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("Blader Runner ");
-        meuFilme.setAnoDeLancamento(2049);
+        Filme meuFilme = new Filme("Blader Runner ", 2017);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
@@ -24,18 +24,18 @@ public class Principal {
         //meuFilme.totalDeAvaliacoes = 1;
         //System.out.println(meuFilme.pegaMedia());
 
-        Serie TheLastOfUs = new Serie();
-        TheLastOfUs.setNome("The last of Us");
-        TheLastOfUs.setAnoDeLancamento(2000);
+        Serie TheLastOfUs = new Serie("The last of Us",2000);
+
+        //TheLastOfUs.setNome("The last of Us");
+        //TheLastOfUs.setDuracaoEmMinutos(180);
+
         TheLastOfUs.exibeFichaTecnica();
         TheLastOfUs.setTemporadas(10);
         TheLastOfUs.setEpisodiosPorTemporada(10);
         TheLastOfUs.setMinutosPorEpisodio(50);
-        System.out.println("Duração para maratonar Lost: " + TheLastOfUs.getDuracaoEmMinutos());
+        System.out.println("Duração para maratonar The Last of US: " + TheLastOfUs.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Avatar");
-        outroFilme.setAnoDeLancamento(2023);
+        Filme outroFilme = new Filme("Avatar", 2023);
         outroFilme.setDuracaoEmMinutos(200);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
@@ -53,13 +53,11 @@ public class Principal {
         episodio.setTotalVisualizacao(500);
         filtro.filtra(episodio);
 
-        var terceiroFilme = new Filme(); //A variavel var realiza uma inferencia do tipo de declaracao
-        terceiroFilme.setNome("Homem-Aranha Um novo dia");
+        var terceiroFilme = new Filme("Homem-Aranha Um novo dia", 2026); //A variavel var realiza uma inferencia do tipo de declaracao
         terceiroFilme.setDuracaoEmMinutos(180);
-        terceiroFilme.setAnoDeLancamento(2026);
         terceiroFilme.avalia(10);
 
-        //Arraylist
+        //Arraylist uma lista
         ArrayList<Filme> listaDeFilmes = new ArrayList<>();
         listaDeFilmes.add(terceiroFilme);
         listaDeFilmes.add(meuFilme);
@@ -68,6 +66,7 @@ public class Principal {
         System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
         System.out.println("toString do filme " + listaDeFilmes.get(0).toString());
+
 
     }
 }

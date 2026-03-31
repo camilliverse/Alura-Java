@@ -1,4 +1,4 @@
-package br.com.alura.scrematch.modelo;
+package br.alura.scrematch.modelo;
 
 public class Filme extends Titulo{
         private String diretor;
