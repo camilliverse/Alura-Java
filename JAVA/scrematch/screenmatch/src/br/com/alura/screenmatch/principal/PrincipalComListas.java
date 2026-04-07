@@ -14,6 +14,7 @@ public class PrincipalComListas {
         outroFilme.avalia(5);
         var terceiroFilme = new Filme("Homem-Aranha Um novo dia", 2026);
         terceiroFilme.avalia(10);
+        var quartoFilme = new Filme("Donzela", 2024);
         Serie TheLastOfUs = new Serie("The last of Us",2000);
 
         //variavel referencia é algo que usamos para chegar a um objeto
@@ -25,6 +26,7 @@ public class PrincipalComListas {
         Lista.add(terceiroFilme);
         Lista.add(meuFilme);
         Lista.add(outroFilme);
+        Lista.add(quartoFilme);
         Lista.add(TheLastOfUs);
 
         for(Titulo item : Lista){
