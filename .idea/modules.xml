@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aluraproject01/Aluraproject01.iml" filepath="$PROJECT_DIR$/Aluraproject01/Aluraproject01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aluraproject02/Aluraproject02.iml" filepath="$PROJECT_DIR$/Aluraproject02/Aluraproject02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aluraproject04/Aluraproject04.iml" filepath="$PROJECT_DIR$/Aluraproject04/Aluraproject04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aluraprokect03/Aluraprokect03.iml" filepath="$PROJECT_DIR$/Aluraprokect03/Aluraprokect03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aluraproject05/desfio scremmatch/desfio scremmatch.iml" filepath="$PROJECT_DIR$/Aluraproject05/desfio scremmatch/desfio scremmatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aluraproject05/scremmatch/scremmatch.iml" filepath="$PROJECT_DIR$/Aluraproject05/scremmatch/scremmatch.iml" />
+    </modules>
+  </component>
+</project>
