@@ -1,52 +1,39 @@
-# Alura-Java Curso
+# Alura Java
 
-Este repositório contém meus estudos e projetos do curso de **Java** na Alura. Aqui você encontrará exercícios, projetos práticos e anotações.
-
----
-
-## Tecnologias
-
-- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-- ![Alura](https://img.shields.io/badge/Alura-003366?style=for-the-badge&logo=alura&logoColor=white)
-- ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
----
+Repositório com meus estudos e projetos desenvolvidos durante os cursos de Java da Alura.
 
 ---
 
-## Funcionalidades
+## Sobre o projeto
 
-- Exercícios práticos do curso
-- Projetos de estudo individuais
-- Aprendizado de conceitos como POO, Collections e Streams
+Este repositório reúne exercícios, práticas e projetos desenvolvidos com foco em:
 
-# Created by https://www.toptal.com/developers/gitignore/api/java
-# Edit at https://www.toptal.com/developers/gitignore?templates=java
+- Lógica de programação
+- Programação orientada a objetos (POO)
+- Estrutura de projetos em Java
+- Boas práticas de desenvolvimento
 
-### Java ###
-# Compiled class file
-*.class
+---
 
-# Log file
-*.log
+## Ultilizando
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
-# BlueJ files
-*.ctxt
+---
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+## Objetivo
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+Consolidar conhecimentos em Java através de prática constante e construção de projetos.
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+---
 
-# End of https://www.toptal.com/developers/gitignore/a
+## Status
 
+ Em desenvolvimento — novos conteúdos sendo adicionados constantemente.
+
+---
+
+## Autor
+
+Desenvolvido durante minha jornada de aprendizado em programação.
