@@ -7,7 +7,8 @@ import java.util.Scanner;
 
 public class ControleExpediente {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scann
+        er scanner = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
 
         // Entrada do usuário
