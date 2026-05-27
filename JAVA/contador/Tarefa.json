@@ -1,0 +1,12 @@
+{
+  "tarefa" : {
+    "descricao" : "Estudar Jackson",
+    "concluida" : false,
+    "pessoaResponsavel" : "Camis"
+  },
+  "avaliacao" : {
+    "item" : { },
+    "nota" : 5,
+    "comentario" : "Excelente produto!"
+  }
+}
